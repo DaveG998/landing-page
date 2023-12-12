@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin: 0;
+  background-color: #1f2937;
+  flex: 1 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px 200px 10px 200px;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.logo {
+  align-self: center;
+}
+
+.footer {
+  margin: 0;
+  background-color: #1f2937;
+  color: white;
+  flex: 1 0 30px;
+  height: 30px;
+  padding: 30px 200px 30px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 750px;
+}
